@@ -13,11 +13,10 @@ const Home = () => {
   return (
     <div>
       <Baner></Baner>
-      <div className='flex justify-between py-5 items-center'>
-        <h1 className='text-3xl font-semibold'>Featured Products</h1>
-        <Link className='btn btn-outline' to='/products'>
-          See All Products
-        </Link>
+      <div className=' py-5 space-y-2'>
+        <h1 className='text-3xl font-semibold text-center'>Trending Apps</h1>
+        <p className='text-center'>Explore All Trending Apps on the Market developed by us</p>
+        
       </div>
       {loading ? (
         <SkeletonLoader />
@@ -28,6 +27,12 @@ const Home = () => {
           ))}
         </div>
       )}
+       <div className="text-center mt-4">
+  <Link className="btn btn-outline bg-[#632EE3] text-white" to="/products">
+    See All Products
+  </Link>
+</div>
+
     </div>
   )
 }

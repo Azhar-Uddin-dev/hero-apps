@@ -15,7 +15,7 @@ export const updateList = product => {
 
   try {
     const isDuplicate = wishlist.some(p => p.id === product.id)
-    if (isDuplicate) return alert('Already added in wishlist')
+    if (isDuplicate) return alert('This app is already installed')
     const updatedWishlist = [...wishlist, product]
     localStorage.setItem('wishlist', JSON.stringify(updatedWishlist))
   } catch (err) {

@@ -1,0 +1,183 @@
+
+[
+  {
+    "image": "https://picsum.photos/200?random=1",
+    "title": "Task Manager Pro",
+    "companyName": "ZenSoft",
+    "id": 1,
+    "description": "A productivity app to manage daily tasks and boost workflow efficiency.",
+    "size": 45,
+    "reviews": 1250,
+    "ratingAvg": 4.5,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 530 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=2",
+    "title": "PhotoCraft",
+    "companyName": "PixelForge",
+    "id": 2,
+    "description": "Edit and enhance your photos with filters, effects, and AI touch-ups.",
+    "size": 70,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=3",
+    "title": "FitTrack",
+    "companyName": "ActiveHub",
+    "id": 3,
+    "description": "Track your workouts, calories, and fitness goals easily.",
+    "size": 55,
+    "reviews": 2130,
+    "ratingAvg": 4.8,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1440 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=4",
+    "title": "NoteSphere",
+    "companyName": "IdeaFlow",
+    "id": 4,
+    "description": "Smart note-taking and organization tool for students and professionals.",
+    "size": 38,
+    "reviews": 760,
+    "ratingAvg": 4.0,
+    "downloads": 130000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 230 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=5",
+    "title": "TravelMate",
+    "companyName": "Skyline Apps",
+    "id": 5,
+    "description": "Plan your trips, find destinations, and book hotels seamlessly.",
+    "size": 90,
+    "reviews": 1420,
+    "ratingAvg": 4.3,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=6",
+    "title": "FinTrack",
+    "companyName": "MoneyWave",
+    "id": 6,
+    "description": "Personal finance tracker with smart budgeting and expense analysis.",
+    "size": 64,
+    "reviews": 1740,
+    "ratingAvg": 4.7,
+    "downloads": 470000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 970 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=7",
+    "title": "Musicify",
+    "companyName": "SonicWave",
+    "id": 7,
+    "description": "Stream millions of songs and podcasts anytime, anywhere.",
+    "size": 85,
+    "reviews": 2530,
+    "ratingAvg": 4.6,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=8",
+    "title": "Weatherly",
+    "companyName": "ClimaTech",
+    "id": 8,
+    "description": "Accurate weather forecasts, radar maps, and alerts.",
+    "size": 40,
+    "reviews": 930,
+    "ratingAvg": 4.1,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 260 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=9",
+    "title": "EduLearn",
+    "companyName": "SmartEd",
+    "id": 9,
+    "description": "Online learning platform with thousands of free and paid courses.",
+    "size": 95,
+    "reviews": 3890,
+    "ratingAvg": 4.9,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 2980 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=10",
+    "title": "RecipeVault",
+    "companyName": "Chefly",
+    "id": 10,
+    "description": "Discover, save, and share thousands of delicious recipes.",
+    "size": 52,
+    "reviews": 760,
+    "ratingAvg": 4.4,
+    "downloads": 195000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 270 }
+    ]
+  }
+]

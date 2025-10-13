@@ -11,7 +11,7 @@ const ProductDetails = () => {
 
   if (loading) return <p>Loading.......</p>
 
-  const { name, image, category, price, description } = product || {}
+  const { name, image, title, price, description } = product || {}
 
   //   const handleAddToWishList = () => {
   //     const existingList = JSON.parse(localStorage.getItem('wishlist'))
@@ -27,24 +27,50 @@ const ProductDetails = () => {
   //   }
 
   return (
-    <div className='card bg-base-100 border shadow-sm'>
-      <figure className='h-84 overflow-hidden'>
-        <img className='w-full object-cover' src={image} alt='Shoes' />
+    <div>
+      <div className='flex  bg-base-100  shadow-lg'>
+      
+      <div>
+        <figure className='h-84 overflow-hidden'>
+        <img className='w-full h-100' src={image} alt='Shoes' />
       </figure>
-      <div className='card-body'>
-        <h2 className='card-title'>{name}</h2>
-        <p>{description}</p>
-        <p>Category: {category}</p>
-        <p>Price: ${price}</p>
-        <div className='card-actions justify-end'>
+      </div>
+      <div className='p-6'>
+        <h1 className='text-3xl font-bold '>SmPlan: {title}</h1>
+        <p>Developed by productive.io</p>
+        <div className='flex gap-7'>
+          <div className='mt-4'>
+            <img src="/src/assets/icon-downloads.png" alt="" />
+            <p>Downloads</p>
+            <h1 className='text-3xl font-semibold'>8M</h1>
+          </div>
+          <div className='mt-4'>
+            <img src="/src/assets/icon-ratings.png" alt="" />
+            <p>Ratings</p>
+            <h1 className='text-3xl font-semibold'>8M</h1>
+          </div>
+          <div className='mt-4'>
+            <img src="/src/assets/icon-review.png" alt="" />
+            <p>Reviews</p>
+            <h1 className='text-3xl font-semibold'>8M</h1>
+          </div>
+          
+        </div>
+        
+        <div className='card-actions justify-center mt-4'>
           <button
             onClick={() => updateList(product)}
-            className='btn btn-outline'
+            className='btn btn-outline bg-green-500 text-white '
           >
-            Add to Wishlist
+            Install Now 
           </button>
         </div>
+        
       </div>
+      
+    </div>
+    <h2 className='text-2xl font-bold mt-10'>Description</h2>
+    <p className='mt-10'>{description}</p>
     </div>
   )
 }

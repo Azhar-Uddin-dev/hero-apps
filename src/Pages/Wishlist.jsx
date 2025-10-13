@@ -1,15 +1,17 @@
 import React, { useState } from 'react'
 import {
+   BarChart,
   Bar,
-  BarChart,
-  CartesianGrid,
-  Legend,
-  ResponsiveContainer,
-  Tooltip,
   XAxis,
   YAxis,
+  Tooltip,
+  CartesianGrid,
+  LabelList,
+  ReferenceLine,
+  ResponsiveContainer,
 } from 'recharts'
 import { loadWishlist, removeFromWishlist } from '../utils/localStorage'
+import RatingsChart from './RatingsChart'
 
 const Wishlist = () => {
   const [wishlist, setWishlist] = useState(() => loadWishlist())
@@ -34,27 +36,19 @@ const Wishlist = () => {
     setWishlist(prev => prev.filter(p => p.id !== id))
   }
 
-  //   generate chart data
-  const totalsByCategory = {}
-  wishlist.forEach(product => {
-    const category = product.category
-
-    totalsByCategory[category] =
-      (totalsByCategory[category] || 0) + product.price
-  })
-  const chartData = Object.keys(totalsByCategory).map(category => ({
-    category,
-    total: totalsByCategory[category],
-  }))
-  console.log(chartData)
+  
 
   return (
     <div className='space-y-6'>
+      <div className='text-center'>
+        <h1 className='text-3xl font-semibold'>Your Installed Apps</h1>
+        <p>Explore All Trending Apps on the Market developed by us</p>
+      </div>
       <div className='flex justify-between py-5 items-center'>
         <h1 className='text-3xl font-semibold'>
-          Wishlist{' '}
+          
           <span className='text-sm text-gray-500'>
-            ({sortedItem.length}) Products Found.
+            ({sortedItem.length})  Apps Found.
           </span>
         </h1>
 
@@ -82,38 +76,37 @@ const Wishlist = () => {
             </figure>
             <div className='card-body'>
               <h3 className='card-title'>{p.name}</h3>
-              <p className='text-base-content/70'>{p.category}</p>
+              <p className='text-base-content/70'>{p.companyName}</p>
+              <div className='flex '>
+                <div className='font-semibold flex gap-4'>
+                <div className='flex gap-2 btn'>
+              <img className='w-5 h-5' src="/src/assets/icon-downloads.png" alt="" />
+            <span>9M</span>
             </div>
+            <div className='flex gap-2 btn'>
+              <img className='w-5 h-5' src="/src/assets/icon-ratings.png" alt="" />
+              <span>5</span>
+            </div>
+
+              </div>
+              </div>
+            </div>
+            
             <div className='pr-4 flex items-center gap-3'>
-              <div className='font-semibold'>${p.price}</div>
+              
               <button
                 onClick={() => handleRemove(p.id)}
-                className='btn btn-outline'
+                className='btn btn-outline bg-blue-500 text-white'
               >
-                Remove
+                Uninstall
               </button>
             </div>
           </div>
         ))}
       </div>
-
+<RatingsChart></RatingsChart>
       {/* chart */}
-      <div className='space-y-3'>
-        <h3 className='text-xl font-semibold'>Wishlist Summery</h3>
-        <div className='bg-base-100 border rounded-xl p-4 h-80'>
-          <ResponsiveContainer width='100%' height='100%'>
-            <BarChart data={chartData}>
-              <CartesianGrid strokeDasharray='3 3' />
-              <XAxis dataKey='category' />
-              <YAxis />
-              <Tooltip />
-              <Legend />
-
-              <Bar dataKey='total' fill='#82ca9d' />
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-      </div>
+     
     </div>
   )
 }
