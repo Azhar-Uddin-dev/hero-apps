@@ -6,7 +6,7 @@ import SkeletonLoader from '../Components/SkeletonLoader'
 import Baner from '../../../../projects/B12-A08-Hero-Apps-1/src/components/Baner/Baner'
 
 const Home = () => {
-  const { loading, error, products } = useProducts()
+  const { loading,  products } = useProducts()
 
   const featuredProducts = products.slice(0, 6)
 

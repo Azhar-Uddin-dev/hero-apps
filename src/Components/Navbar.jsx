@@ -44,10 +44,10 @@ const Navbar = () => {
     <a className="btn btn-ghost text-xl ">HERO.IO</a>
    </div>
         </Link>
-      </div>
+      </div >
       <div className='navbar-center '></div>
       <div className='navbar-end'>
-        <ul className='menu menu-horizontal px-1 hidden lg:flex'>
+        <ul className='menu menu-horizontal text-center  px-1 hidden lg:flex'>
           <li>
             <NavLink to='/'>Home</NavLink>
           </li>
