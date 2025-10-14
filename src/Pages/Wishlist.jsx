@@ -11,7 +11,7 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 import { loadWishlist, removeFromWishlist } from '../utils/localStorage'
-import RatingsChart from './RatingsChart'
+
 
 const Wishlist = () => {
   const [wishlist, setWishlist] = useState(() => loadWishlist())

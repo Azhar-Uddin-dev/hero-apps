@@ -1,11 +1,10 @@
-
 [
   {
     "image": "https://picsum.photos/200?random=1",
     "title": "Task Manager Pro",
     "companyName": "ZenSoft",
     "id": 1,
-    "description": "A productivity app to manage daily tasks and boost workflow efficiency.",
+    "description": "Task Manager Pro is a powerful and user-friendly productivity application designed to help you **effectively manage your daily tasks and boost workflow efficiency**. It allows you to **create, schedule, and prioritize tasks** with customizable categories and labels. The intuitive interface provides a clear overview of your project progress and deadlines, minimizing stress and maximizing output. It features robust **team collaboration tools** and instant cloud synchronization, ensuring you can access your work from any device, anywhere. Furthermore, it offers smart reminders and recurring task settings to keep you on track. This app is an essential tool for professionals and students aiming for peak productivity and organization.",
     "size": 45,
     "reviews": 1250,
     "ratingAvg": 4.5,
@@ -23,7 +22,7 @@
     "title": "PhotoCraft",
     "companyName": "PixelForge",
     "id": 2,
-    "description": "Edit and enhance your photos with filters, effects, and AI touch-ups.",
+    "description": "PhotoCraft is a **professional-grade photo editing application** that transforms your ordinary images into works of art. It offers a vast array of advanced tools, including a diverse selection of **filters, effects, and AI-powered touch-ups**. Users can finely adjust **exposure, contrast, color saturation, and white balance** to achieve the perfect look. The powerful AI capabilities automatically detect and correct portrait flaws and allow for seamless background replacement. It supports complex features like layering and masking, making it suitable for both casual photographers and experienced editors. Use PhotoCraft to create **high-quality, portfolio-ready images** for social media or professional use, supporting all major file formats.",
     "size": 70,
     "reviews": 890,
     "ratingAvg": 4.2,
@@ -41,7 +40,7 @@
     "title": "FitTrack",
     "companyName": "ActiveHub",
     "id": 3,
-    "description": "Track your workouts, calories, and fitness goals easily.",
+    "description": "FitTrack serves as your **all-in-one personal fitness and health tracker**. This comprehensive app makes it incredibly easy to track your **daily workouts, caloric intake, hydration levels, and essential health metrics**. It allows users to create **customized training plans** for various types of exercises, from running to strength training. The app seamlessly integrates with smartwatches and other wearable devices to monitor your steps, heart rate, and sleep quality. You can set **specific, measurable fitness goals** and visualize your progress through detailed graphs and reports. FitTrack motivates you to maintain a healthy and active lifestyle by providing **personalized coaching tips and achievement badges**.",
     "size": 55,
     "reviews": 2130,
     "ratingAvg": 4.8,
@@ -59,7 +58,7 @@
     "title": "NoteSphere",
     "companyName": "IdeaFlow",
     "id": 4,
-    "description": "Smart note-taking and organization tool for students and professionals.",
+    "description": "NoteSphere is a smart and robust **note-taking and organization tool** designed for both students and professionals who need to capture and manage information efficiently. This app enables you to securely save notes using **text, audio recordings, images, and handwritten sketches**. You can categorize your notes using tags, folders, and customizable colors, making it simple to retrieve any piece of information quickly through its powerful search function. It offers **cross-device synchronization**, so you can access and update your notes seamlessly from your phone, tablet, or desktop computer. NoteSphere is perfect for summarizing meetings, capturing lecture content, drafting ideas, or maintaining a personal journal, ensuring all your thoughts are perfectly organized.",
     "size": 38,
     "reviews": 760,
     "ratingAvg": 4.0,
@@ -77,7 +76,7 @@
     "title": "TravelMate",
     "companyName": "Skyline Apps",
     "id": 5,
-    "description": "Plan your trips, find destinations, and book hotels seamlessly.",
+    "description": "TravelMate is your **ultimate travel planning and management application**. It helps you discover destinations worldwide, compare prices, and **book the best flight and hotel deals** effortlessly. You can organize all your reservations, detailed itineraries, and essential documents within a single, secure application. A standout feature is its **offline map functionality**, which is invaluable when traveling internationally or in areas with poor connectivity. The app provides real-time updates on local weather, offers a handy **currency converter**, and gives information on popular tourist attractions. TravelMate is designed to make your journey smooth, stress-free, and memorable, allowing you to focus purely on enjoying your adventure.",
     "size": 90,
     "reviews": 1420,
     "ratingAvg": 4.3,
@@ -95,7 +94,7 @@
     "title": "FinTrack",
     "companyName": "MoneyWave",
     "id": 6,
-    "description": "Personal finance tracker with smart budgeting and expense analysis.",
+    "description": "FinTrack is a comprehensive **personal finance tracker** that gives you complete control over your money management. The app can securely **sync with your bank accounts** to automatically track your income and expenses in real-time. It provides powerful **smart budgeting tools** that help you set spending limits, categorize costs, and define savings goals. You can view your transactions organized into custom categories and generate **detailed graphical reports** to identify spending patterns. FinTrack uses top-tier security and encryption to protect your data, offering clear insights into your financial health so you can make informed decisions and work towards achieving financial freedom.",
     "size": 64,
     "reviews": 1740,
     "ratingAvg": 4.7,
@@ -113,7 +112,7 @@
     "title": "Musicify",
     "companyName": "SonicWave",
     "id": 7,
-    "description": "Stream millions of songs and podcasts anytime, anywhere.",
+    "description": "Musicify offers you **unlimited access to a massive library** of millions of songs, albums, and podcasts from artists all over the world. You can stream high-quality audio anytime, anywhere, and enjoy a truly immersive listening experience. The app uses advanced algorithms to suggest **personalized playlists and discover new artists** based on your listening history and mood. A key feature allows you to **download your favorite tracks for offline listening** and create custom playlists for any occasion. Musicify also provides dedicated radio stations for various genres and moods. Its sleek, modern interface makes music discovery and enjoyment a seamless and delightful experience for every music lover.",
     "size": 85,
     "reviews": 2530,
     "ratingAvg": 4.6,
@@ -131,7 +130,7 @@
     "title": "Weatherly",
     "companyName": "ClimaTech",
     "id": 8,
-    "description": "Accurate weather forecasts, radar maps, and alerts.",
+    "description": "Weatherly is an **incredibly accurate and reliable weather forecast app** designed to keep you prepared for anything nature throws your way. It provides **detailed hourly and 7-day forecasts**, accompanied by a **live, interactive radar map** to visualize the movement of rain, snow, or storms in real-time. You can set up personalized alerts for severe weather changes, ensuring you receive immediate notifications about sudden shifts in conditions. Comprehensive weather data, including temperature, wind speed, humidity, and UV index, is presented in a **clear, easy-to-read interface**. This makes Weatherly an indispensable tool for planning outdoor activities, travel, or just deciding what to wear for the day.",
     "size": 40,
     "reviews": 930,
     "ratingAvg": 4.1,
@@ -149,7 +148,7 @@
     "title": "EduLearn",
     "companyName": "SmartEd",
     "id": 9,
-    "description": "Online learning platform with thousands of free and paid courses.",
+    "description": "EduLearn is a **premium online learning platform** that offers access to thousands of free and paid courses across a wide range of disciplines. You can learn from **world-class instructors** in subjects like programming, digital marketing, art, data science, and more. The platform delivers an engaging educational experience through interactive lectures, practical assignments, quizzes, and real-world projects. Upon successful completion of a course, you can **earn verifiable certificates** that can boost your career prospects. It meticulously tracks your learning progress and suggests new courses based on your interests and skill gaps, making it the ideal application for continuous knowledge growth and **upskilling**.",
     "size": 95,
     "reviews": 3890,
     "ratingAvg": 4.9,
@@ -167,7 +166,7 @@
     "title": "RecipeVault",
     "companyName": "Chefly",
     "id": 10,
-    "description": "Discover, save, and share thousands of delicious recipes.",
+    "description": "RecipeVault is your **all-in-one kitchen companion** designed to help you **discover, save, and share thousands of delicious recipes**. Whether you're planning quick weeknight dinners or preparing gourmet holiday meals, this app has you covered. You can easily **search by ingredient, cuisine type, dietary restriction (e.g., vegan, gluten-free), or meal category**. A standout feature is the **smart shopping list generator**, which automatically compiles a grocery list based on the recipes you select. It also includes a **weekly meal planning calendar** to help you organize your cooking schedule, transforming the entire cooking process into a simple and enjoyable experience.",
     "size": 52,
     "reviews": 760,
     "ratingAvg": 4.4,
@@ -178,6 +177,186 @@
       { "name": "3 star", "count": 160 },
       { "name": "4 star", "count": 210 },
       { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=11",
+    "title": "CodeMentor",
+    "companyName": "DevGenius",
+    "id": 11,
+    "description": "CodeMentor is an interactive learning application that simplifies the process of **learning to code** for both beginners and experienced developers. The app offers **step-by-step tutorials, a built-in real-time code editor, and practical exercises** for popular programming languages like Python, JavaScript, and Java. Users can test their skills through coding challenges and small-scale projects. It's specifically designed to aid in **competitive programming** and technical interview preparation, offering mock interviews and algorithmic problem sets. Regular updates ensure new languages and modern frameworks are included, helping you **master coding skills** and build a robust portfolio for your career advancement.",
+    "size": 88,
+    "reviews": 3100,
+    "ratingAvg": 4.7,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=12",
+    "title": "MindPalace",
+    "companyName": "FocusFlow",
+    "id": 12,
+    "description": "MindPalace is a calming and insightful guide for practitioners of **meditation and mindfulness**. This app is dedicated to helping you **reduce stress, achieve better sleep, and enhance your mental focus**. It features a wide range of **guided meditation sessions** for various time durations and goals, catering to both newcomers and seasoned meditators. Specialized programs are included for stress relief, increasing concentration, and achieving deep, restful sleep. The app also provides a journal and detailed statistics to **track your meditation progress** and celebrate your milestones. MindPalace's library of serene music and nature sounds will help you bring more peace and clarity into your daily life.",
+    "size": 75,
+    "reviews": 1900,
+    "ratingAvg": 4.9,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 1400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=13",
+    "title": "SecureConnect VPN",
+    "companyName": "DataShield",
+    "id": 13,
+    "description": "SecureConnect VPN ensures your **online privacy and security** with military-grade encryption. This app encrypts your entire internet traffic, effectively shielding your data from hackers, trackers, and snooping third parties, especially when using public Wi-Fi networks. You can connect to a global network of **high-speed servers** in dozens of countries, allowing you to bypass regional restrictions and access content safely. Its **strict 'no-logs' policy** guarantees that your browsing activities are never recorded or monitored. SecureConnect VPN offers one-tap connection simplicity and unlimited bandwidth, making your overall online experience both faster and completely secure, essential for digital freedom.",
+    "size": 50,
+    "reviews": 1120,
+    "ratingAvg": 4.3,
+    "downloads": 280000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=14",
+    "title": "LangMaster",
+    "companyName": "Polyglot Systems",
+    "id": 14,
+    "description": "LangMaster is an innovative language learning app designed to help you **master new languages quickly and effectively**. It supports over **20 languages**, including Spanish, French, German, and Mandarin. The app provides fun, **gamified lessons**, interactive dialogues with native speakers, and advanced **voice recognition tools** to perfect your pronunciation. It creates a personalized curriculum based on your learning speed and goals, ensuring efficient progress. LangMaster uses powerful memory techniques for vocabulary and grammar acquisition, enabling you to participate in real-life conversations with confidence. It transforms language acquisition into an enjoyable and highly rewarding experience, making fluency accessible to everyone.",
+    "size": 68,
+    "reviews": 2350,
+    "ratingAvg": 4.6,
+    "downloads": 590000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1540 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=15",
+    "title": "GameHub Extreme",
+    "companyName": "Infinity Play",
+    "id": 15,
+    "description": "GameHub Extreme is the **ultimate mobile gaming platform** offering access to hundreds of exclusive, high-quality games across every genre, from action-packed RPGs to brain-teasing puzzles. It features **seamless cloud saves and cross-platform play**, so you can pick up exactly where you left off on any device. The app provides **real-time leaderboards, achievement tracking, and integrated social features** to connect with friends and compete globally. With a focus on optimized performance, GameHub Extreme ensures a lag-free and immersive gaming experience, even for graphic-intensive titles. Its curated selection process guarantees only the best and most engaging games make it to the platform.",
+    "size": 120,
+    "reviews": 4500,
+    "ratingAvg": 4.5,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=16",
+    "title": "HomeBudget AI",
+    "companyName": "WealthSense",
+    "id": 16,
+    "description": "HomeBudget AI takes the stress out of household financial management by using **Artificial Intelligence to predict spending and recommend optimal budgets**. This app allows you to link all your family's accounts to gain a holistic view of your finances. It automatically categorizes transactions and alerts you to unusual spending patterns. You can set up **shared budgets** with family members and track contributions toward common goals, such as a vacation or down payment. The AI provides personalized tips for saving money and reducing debt, turning complex finances into easy-to-manage data points, ensuring your family stays financially aligned and secure.",
+    "size": 60,
+    "reviews": 1550,
+    "ratingAvg": 4.8,
+    "downloads": 390000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=17",
+    "title": "BookWorm Reader",
+    "companyName": "PageTurner Inc.",
+    "id": 17,
+    "description": "BookWorm Reader is the perfect digital library and reading application for avid book lovers. It provides access to **millions of eBooks, audiobooks, and magazines** across all genres, available for instant download. The app offers a highly customizable reading experience, allowing you to adjust font size, background color, and brightness for optimal comfort. Key features include **cross-device syncing of reading progress**, built-in dictionary lookups, and the ability to highlight and annotate passages. You can also join reading clubs, share notes, and receive personalized recommendations, making BookWorm Reader a true community for literature enthusiasts.",
+    "size": 48,
+    "reviews": 2800,
+    "ratingAvg": 4.7,
+    "downloads": 810000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1820 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=18",
+    "title": "QuickChat Messenger",
+    "companyName": "Communica Tech",
+    "id": 18,
+    "description": "QuickChat Messenger is a fast, secure, and feature-rich communication application for staying connected with friends, family, and colleagues. It supports **end-to-end encrypted text messages, high-quality voice calls, and crystal-clear video calls**. You can create group chats, share photos, documents, and even your live location instantly. The app boasts unique features like **self-destructing messages** for extra privacy and customizable chat themes. Optimized for low bandwidth, QuickChat ensures reliable performance even with slow internet connections, making global communication seamless and worry-free. It's the modern, secure alternative for all your messaging needs.",
+    "size": 58,
+    "reviews": 3400,
+    "ratingAvg": 4.6,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=19",
+    "title": "Design Canvas Pro",
+    "companyName": "Creative Stream",
+    "id": 19,
+    "description": "Design Canvas Pro is a **professional graphic design and illustration tool** made for creatives on the go. It provides a comprehensive suite of features found in desktop software, including **layering, advanced brush dynamics, vector graphics editing, and customizable templates**. Whether you are creating social media graphics, logos, or digital paintings, the app offers the precision and flexibility you need. It supports stylus input for natural drawing and integrates with major cloud storage services for easy file management. Design Canvas Pro is the perfect solution for turning your creative visions into high-resolution reality, empowering you to design anywhere.",
+    "size": 110,
+    "reviews": 1650,
+    "ratingAvg": 4.5,
+    "downloads": 360000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 240 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=20",
+    "title": "Astro Atlas",
+    "companyName": "Celestial Apps",
+    "id": 20,
+    "description": "Astro Atlas is a stunning and educational application that turns your phone into a **portable planetarium**. Simply point your device at the night sky to **identify constellations, stars, planets, and deep-sky objects in real-time**. The app features detailed information cards for every celestial body, including mythology, history, and scientific facts. It provides **accurate real-time tracking** of satellite passes and upcoming astronomical events like meteor showers and eclipses. With beautiful, high-resolution graphics and an easy-to-use interface, Astro Atlas makes **stargazing accessible and exciting** for amateur astronomers and curious minds of all ages. Explore the universe from the palm of your hand.",
+    "size": 72,
+    "reviews": 1380,
+    "ratingAvg": 4.9,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 950 }
     ]
   }
 ]

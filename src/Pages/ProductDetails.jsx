@@ -6,7 +6,7 @@ import RatingsChart from './RatingsChart'
 
 const ProductDetails = () => {
   const { id } = useParams()
-  const { products, loading } = useProducts()
+  const { products, loading,Downloads } = useProducts()
   const [installed, setInstalled] = useState(false) // ✅ Hook top-level এ থাকতে হবে
 
   if (loading) return <p>Loading.......</p>
@@ -35,7 +35,7 @@ const ProductDetails = () => {
           <div className='flex gap-7'>
             <div className='mt-4 text-center'>
               <img src="/src/assets/icon-downloads.png" alt="Downloads" />
-              <p>Downloads</p>
+              <p>{Downloads}</p>
               <h1 className='text-3xl font-semibold'>8M</h1>
             </div>
             <div className='mt-4 text-center'>
