@@ -104,8 +104,8 @@ const Wishlist = () => {
           </div>
         ))}
       </div>
-<RatingsChart></RatingsChart>
-      {/* chart */}
+
+      
      
     </div>
   )
