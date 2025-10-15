@@ -3,7 +3,9 @@ import { useParams } from 'react-router'
 import useProducts from '../hooks/useProducts'
 import { updateList } from '../utils/localStorage'
 import RatingsChart from './RatingsChart'
-
+import Downloadsicon from '../assets/icon-downloads.png'
+import Ratingicon from '../assets/icon-ratings.png'
+import Reviewicon from '../assets/icon-review.png'
 const ProductDetails = () => {
   const { id } = useParams()
   const { products, loading,Downloads } = useProducts()
@@ -34,17 +36,17 @@ const ProductDetails = () => {
 
           <div className='flex gap-7'>
             <div className='mt-4 text-center'>
-              <img src="/src/assets/icon-downloads.png" alt="Downloads" />
+              <img src={Downloadsicon} alt="Downloads" />
               <p>{Downloads}</p>
               <h1 className='text-3xl font-semibold'>8M</h1>
             </div>
             <div className='mt-4 text-center'>
-              <img src="/src/assets/icon-ratings.png" alt="Ratings" />
+              <img src={Ratingicon} alt="Ratings" />
               <p>Ratings</p>
               <h1 className='text-3xl font-semibold'>4.8</h1>
             </div>
             <div className='mt-4 text-center'>
-              <img src="/src/assets/icon-review.png" alt="Reviews" />
+              <img src={Reviewicon} alt="Reviews" />
               <p>Reviews</p>
               <h1 className='text-3xl font-semibold'>25K</h1>
             </div>

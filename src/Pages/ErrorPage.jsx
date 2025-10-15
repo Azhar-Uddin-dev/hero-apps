@@ -2,7 +2,7 @@ import React from 'react'
 import { useRouteError } from 'react-router'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-
+import error from '../assets/error-404.png'
 const ErrorPage = () => {
   const error = useRouteError()
 
@@ -15,7 +15,7 @@ const ErrorPage = () => {
   )}
 
   <img
-    src="/src/assets/error-404.png"
+    src={error}
     alt="404 Error"
     className="w-64 h-auto mb-6"
   />

@@ -1,17 +1,7 @@
 import React, { useState } from 'react'
-import {
-   BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  CartesianGrid,
-  LabelList,
-  ReferenceLine,
-  ResponsiveContainer,
-} from 'recharts'
 import { loadWishlist, removeFromWishlist } from '../utils/localStorage'
-
+import Downloadsicon from '../assets/icon-downloads.png'
+import Ratingicon from '../assets/icon-ratings.png'
 
 const Wishlist = () => {
   const [wishlist, setWishlist] = useState(() => loadWishlist())
@@ -80,11 +70,11 @@ const Wishlist = () => {
               <div className='flex '>
                 <div className='font-semibold flex gap-4'>
                 <div className='flex gap-2 btn'>
-              <img className='w-5 h-5' src="/src/assets/icon-downloads.png" alt="" />
+              <img className='w-5 h-5' src={Downloadsicon} alt="" />
             <span>9M</span>
             </div>
             <div className='flex gap-2 btn'>
-              <img className='w-5 h-5' src="/src/assets/icon-ratings.png" alt="" />
+              <img className='w-5 h-5' src={Ratingicon} alt="" />
               <span>5</span>
             </div>
 
